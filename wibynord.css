@@ -1,0 +1,54 @@
+@-moz-document domain("wiby.me") {
+:root{
+    --polarnight1:#2E3440;
+    --polarnight2:#3B4252;
+    --polarnight3:#434C5E;
+    --polarnight4:#4C566A;
+    --snowstorm1:#D8DEE9;
+    --snowstorm2:#E5E9F0;
+    --snowstorm3:#ECEFF4;
+    --frost1:#8FBCBB;
+    --frost2:#88C0D0;
+    --frost3:#81A1C1;
+    --frost4:#5E81AC;
+    --aurora1:#BF616A;
+    --aurora2:#D08770;
+    --aurora3:#EBCB8B;
+    --aurora4:#A3BE8C;
+    --aurora5:#B48EAD;
+}
+
+body {
+    background-color:var(--polarnight1);
+}
+
+.titlep, a:link, a.tiny, a.title:link{
+color:var(--aurora5)
+}
+
+body > blockquote > a:hover{
+    text-decoration:underline
+}
+
+.pin, div, h4{
+color:var(--snowstorm3)
+}
+
+p{
+color:var(--snowstorm1)
+}
+
+p.url{
+color:var(--aurora4)
+}
+
+#q, textarea, input{
+    background-color:var(--polarnight2);
+    color:var(--snowstorm1);
+    border:none
+}
+
+input:hover{
+    background-color:var(--frost4)
+}
+}
