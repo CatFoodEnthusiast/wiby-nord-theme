@@ -38,6 +38,9 @@ body {
 color:var(--aurora5)
 }
 
+    body > blockquote > a{
+    color:var(--frost1) !important
+}
 body > blockquote > a:hover{
     text-decoration:underline
 }
