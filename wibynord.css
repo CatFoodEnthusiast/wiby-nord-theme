@@ -1,4 +1,16 @@
 @-moz-document domain("wiby.me") {
+    /* ==UserStyle==
+@name         wibynord
+@description  wiby nord theme
+@namespace    https://github.com/CatFoodEnthusiast/wiby-nord-theme
+@homepageURL  https://github.com/CatFoodEnthusiast/wiby-nord-theme
+@supportURL   https://github.com/CatFoodEnthusiast/wiby-nord-theme/issues
+@updateURL    https://github.com/CatFoodEnthusiast/wiby-nord-theme/main/wibynord.css
+@author       catfoodenthusiast
+@version      1.0.0
+@license      GPL-3.0
+==/UserStyle== */
+    
 :root{
     --polarnight1:#2E3440;
     --polarnight2:#3B4252;
